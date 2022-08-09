@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/Images/logo-0.jpg" type="image/x-icon">
+    <title>Graphic Designs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300;1,500;1,700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+        .prjoect {
+            padding: 50px 0;
+        }
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap:40px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+
+        .work {
+            padding: 25px 15px;
+            background:#262626;
+            color:darkcyan;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            transition: background 0.5s, transform 0.5s;
+        }
+
+        .work h3 {
+            font-size: 28px;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .work:hover {
+            background-color:whitesmoke;
+            transform: translateY(-10px);
+            color: #262626;
+        }
+
+        .work img {
+            margin-top: 20px;
+            padding-left:32px;
+            width: 80%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="projects">
+        <div class="container">
+            <h2 class="subtitle" style="text-align:center; font-size: 52px; color: crimson; margin-top:35px;">My Projects</h2>
+            <div class="project-list">
+                <div class="work">
+                    <h3>Adobe Photoshop</h3>
+                    <a href="photoshop.html">
+                    <img src="Assets/Images/Adobe-Photoshop.png" alt="Photoshop"></a>
+                </div>
+                <div class="work">
+                    <h3>Adobe Illustrator</h3>
+                   <a href="illustrator.html"><img src="Assets/Images/Adobe-Illustrator-Logo.png" alt="Illustrator"></a>
+                </div>
+                <div class="work">
+                    <h3>Adobe InDesign</h3>
+                    <a href="Indesign.html"><img src="Assets/Images/InDesign-Logo.png" alt="InDesign"></a>
+                </div>
+                <div class="work">
+                    <h3>Corel Draw</h3>
+                  <a href="corel.html"><img src="Assets/Images/Corel-logo.png" alt="Corel"></a>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>

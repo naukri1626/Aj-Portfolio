@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/Images/Adobe-Photoshop.png" type="image/x-icon">
+    <title>Aj || Photoshop Prjoects</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300;1,500;1,700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    #photoshop {
+        padding: 50px 0;
+    }
+
+    .project-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .work {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        transition: background 0.5s, transform 0.5s;
+    }
+
+    .work:hover {
+        transform: translateY(-10px);
+    }
+
+    .work img {
+        margin-top: 20px;
+        padding-left: 55px;
+        width: 100%;
+    }
+
+    @media only screen and (max-width:900px) {
+        .work img {
+            margin-left: -55px;
+        }
+
+        .wrok h3 {
+            margin-top: 30px;
+        }
+
+    }
+</style>
+
+<body>
+    <section id="photoshop">
+        <div class="container">
+            <h2 class="subtitle" style="text-align:center; font-size: 42px; margin-top:-5px; padding: 0;">My Photoshop
+                Projects</h2>
+            <div class="project-list">
+                <div class="work" style="margin-top:35px;">
+                    <img src="Assets/Images/Photoshop/cliping-mask.jpg" alt="Clipimg-Mask">
+                    <h3 style="text-align:center;">Cliping Mask</h3>
+                </div>
+                <div class="work" style="margin-top:35px">
+                    <img src="Assets/Images/Photoshop/Himalaya-Poster.jpg" alt="Himalaya-poster">
+                    <h3 style="text-align:center;">Himalaya-poster</h3>
+                </div>
+                <div class="work" style="margin-top:35px">
+                    <img src="Assets/Images/Photoshop/Nike-Poster.jpg" alt="Nike-Poster">
+                    <h3 style="text-align:center;">Nike-Poster</h3>
+                </div>
+                <div class="work" style="margin-top:35px">
+                    <img src="Assets/Images/Photoshop/watch-banner.jpg" alt="watch-banner">
+                    <h3 style="text-align:center;">Wrist Watch Banner</h3>
+                </div>
+                <div class="work" style="margin-top:35px">
+                    <img src="Assets/Images/Food-Landing-Page.jpg" alt="burger-poster">
+                    <h3 style="text-align:center;">Food Landing Page</h3>
+                </div>
+                <div class="work" style="margin-top:35px">
+                    <img src="Assets/Images/Photoshop/Burger-Poster.jpg" alt="burger-poster">
+                    <h3 style="text-align:center;">Burger Poster</h3>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
